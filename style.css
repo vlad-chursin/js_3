@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.glass-back{
+    background: -webkit-linear-gradient(90deg, #abb2b8,#71abb6,#2ea393);
+    background: linear-gradient(90deg, #abb2b8,#71abb6,#2ea393);
+    padding: 20px;
+    border-radius: 10px;
+}
+  
+.glass-but{
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.glass-but:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+  
+.neomorph-back{
+    background: rgb(177, 177, 177);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.neomorph-but {
+    background: #e0e0e0;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #535353;
+    box-shadow: 6px 6px 12px rgb(136, 136, 136), -6px -6px 12px rgb(187, 187, 187);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.neomorph-but:active {
+    box-shadow: inset 6px 6px 12px rgb(136, 136, 136), inset -6px -6px 12px rgb(187, 187, 187);
+  }
+  
+.styled-back{
+    background: rgb(238, 238, 238);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.styled-but {
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, margin 0.3s ease;
+    background-color: linear-gradient(90deg, #abb2b8,#71abb6,#2ea393);
+}
